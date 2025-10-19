@@ -3,7 +3,7 @@ const productList = document.getElementById("productList");
 const lotSelector = document.getElementById("lotSelector");
 
 // List your CSV files here
-const lots = ["lot1.csv"];
+const lots = ["Croma_Bhivandi_Lot.csv"];
 let allData = [];
 
 async function loadData() {
