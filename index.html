@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>📦 Inventory Dashboard</h1>
+      <div class="controls">
+        <input type="text" id="searchBox" placeholder="Search by Model or Size..." />
+        <select id="lotSelector">
+          <option value="all">All Lots</option>
+          <option value="lot1">Lot 1</option>
+          <option value="lot2">Lot 2</option>
+          <option value="lot3">Lot 3</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <div id="productList" class="product-list"></div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
